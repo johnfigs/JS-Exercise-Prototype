@@ -128,10 +128,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window binding. Most likely used in error is Window binding. It occurs when we don't give the 'this' keyword a context.
+    2. Implicit binding. Used in object methods. When used, look to the left of the dot, that is the object that 'this' will refer to. 
+    3. Explicit binding happens 3 ways. The first, using '.call', this will allow you to your object as a parameter and bind 'this' to it. 'call' immediately invokes the function. Second, apply, similar to '.call', but expects an array of parameters. Lastly, '.bind', takes arguments one by one and returns a new function, that can be called later. 
+    4. New binding, create a new object and binds 'this' to it. 
   */
   
   
